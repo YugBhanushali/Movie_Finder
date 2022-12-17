@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: 1450px 847px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    height: 300px;
+    width: 600px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main .movieName{
+    height: 30px;
+    width: 300px;
+    margin: 20px 0;
+    border-radius: 30px;
+    padding: 5px 12px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.main .submit{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #4158D0;
+    border: 10px;
+    color: rgb(216, 180, 146);
+    cursor: pointer;
+}
+
+.main .submit:hover{
+    background-color: #1f2d75;
+}
